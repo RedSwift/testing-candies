@@ -20,3 +20,5 @@ app.use('/candies/', router)
 app.listen(port, () => {
   console.log(`Listening to port: ${port}`)
 })
+
+module.exports = app
