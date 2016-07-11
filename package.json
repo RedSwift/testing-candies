@@ -6,8 +6,9 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "mocha"
-  },
+    "test": "mocha",
+    "cover": "istanbul cover _mocha"
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {
