@@ -26,6 +26,7 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   if (req.body.color === 'haha') {
     res.status(422).json('Invalid Color')
+    return
   }
   newCandy.name = req.body.name
   newCandy.color = req.body.color
